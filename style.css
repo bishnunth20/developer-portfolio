@@ -22,7 +22,6 @@ p{
   color: white;
   font-weight: 700;
 }
-
 .half-width{
   /* border: solid 1px red; */
   width: 40%;
@@ -33,12 +32,28 @@ p{
 .half-width img{
   width: 100%;
 }
-
+.experience-item{
+  box-shadow: 5px 5px 20px gray;
+  border-radius: 10px;
+  border-left: 7px solid;
+  background-color: white;
+}
+#full-stack-experience{
+  border-image: linear-gradient(cyan, blue);
+  border-image-slice: 1;
+}
+#baby-web-experience{
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
 section{
-  border: 1px solid red;
-  display: flex;
+  /* border: 1px solid red; */
+  /* display: flex; */
   /* height: 600px; */
   padding-bottom: 100px;
+}
+.flexible-container{
+  display: flex;
 }
 .top-banner{
   background-image: url(images/top-banner.png);
@@ -48,4 +63,12 @@ section{
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+footer p{
+  text-align: center;
 }
